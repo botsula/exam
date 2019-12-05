@@ -36,7 +36,6 @@ public class JSONApp {
 
 
     public static JsonObject sessionResult() {
-
         JsonPair name = new JsonPair("name", new JsonString("Andrii"));
         JsonPair surname = new JsonPair("surname", new JsonString("Rodionov"));
         JsonPair year = new JsonPair("year", new JsonNumber(2));
